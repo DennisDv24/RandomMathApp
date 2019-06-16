@@ -53,8 +53,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Mconfig.cs" />
+     <Compile Include="Assets\Scripts\McontrollerConfig.cs" />
+     <Compile Include="Assets\Scripts\calcMdimInfo.cs" />
      <Compile Include="Assets\Scripts\changeSceneController.cs" />
-     <Compile Include="Assets\Scripts\getMdimInfo.cs" />
      <Compile Include="Assets\Scripts\oneDscreen.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
