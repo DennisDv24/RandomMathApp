@@ -8,25 +8,25 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: Assets/ScenesF/mainScenes/main.unity
     guid: 9996046201e1cec1797601dd7ac68aab
-  - enabled: 0
+  - enabled: 1
     path: Assets/ScenesF/definition/defMdimScene.unity
     guid: 5d8411c5e13c50f3d904ca87fd200b59
   - enabled: 1
     path: Assets/ScenesF/mainScenes/Intro.unity
     guid: 7e7cd06136ce3630187397e1a03b356a
-  - enabled: 0
+  - enabled: 1
     path: Assets/ScenesF/definition/defMscene.unity
     guid: b3ac85bbaa9d97452a7d1d34d45d4a89
-  - enabled: 0
+  - enabled: 1
     path: Assets/ScenesF/definition/nameM.unity
     guid: c313299bbc9d57e66b371a696aefb57a
-  - enabled: 0
+  - enabled: 1
     path: Assets/ScenesF/CalculatorScenes/calculatorScene.unity
     guid: 9b9a85ca721efb17d9863a2b175a1d16
-  - enabled: 0
+  - enabled: 1
     path: Assets/ScenesF/Settings/settingsScene.unity
     guid: 07dd0d5e9ecfeff73be5952b80bf9ec0
   m_configObjects: {}

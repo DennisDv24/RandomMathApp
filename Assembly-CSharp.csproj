@@ -53,18 +53,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Mconfig.cs" />
-     <Compile Include="Assets\Scripts\McontrollerConfig.cs" />
-     <Compile Include="Assets\Scripts\calcMdimInfo.cs" />
-     <Compile Include="Assets\Scripts\changeSceneController.cs" />
-     <Compile Include="Assets\Scripts\destroyController.cs" />
-     <Compile Include="Assets\Scripts\oneDscreen.cs" />
+     <Compile Include="Assets\Scripts\displayConfigs\oneDscreen.cs" />
+     <Compile Include="Assets\Scripts\flowConfigs\changeSceneController.cs" />
+     <Compile Include="Assets\Scripts\flowConfigs\changeSceneFromAnimState.cs" />
+     <Compile Include="Assets\Scripts\flowConfigs\destroyController.cs" />
+     <Compile Include="Assets\Scripts\flowConfigs\instantiateMcontroller.cs" />
+     <Compile Include="Assets\Scripts\mathConfigs\Mconfig.cs" />
+     <Compile Include="Assets\Scripts\mathConfigs\McontrollerConfig.cs" />
+     <Compile Include="Assets\Scripts\mathConfigs\calcMdimInfo.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
-     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />

@@ -5319,9 +5319,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 912d1f548bac2dfb5a4ecd17e1174b43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fDimData_InputedAsMesh: {fileID: 391551058}
+  mconPrefab: {fileID: 6260067636975372788, guid: f38a5035b3a56f2939ebdef80730ccb5,
+    type: 3}
   Mcontroller: {fileID: 6260067636975372788, guid: f38a5035b3a56f2939ebdef80730ccb5,
     type: 3}
+  fDimData_InputedAsMesh: {fileID: 391551058}
 --- !u!1 &1963391704
 GameObject:
   m_ObjectHideFlags: 0
