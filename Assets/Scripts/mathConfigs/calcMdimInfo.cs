@@ -11,7 +11,6 @@ public class calcMdimInfo : MonoBehaviour
     private String fDimData_InputedAsString;
 
 
-
     private GameObject Mcontroller;
         private McontrollerConfig config;
         
