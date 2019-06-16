@@ -18,9 +18,11 @@ public class calcMdimInfo : MonoBehaviour
             fDimData_InputedAsString = fDimData_InputedAsMesh.text;
 
             int[] dim = dimsFromStringToArray(fDimData_InputedAsString);
- 
-        newMatrix(dim);
-        
+
+        if (dim[0]==0 || dim[1]==0) print("E: the matrix cannot have 0 rows or cols");
+
+        else newMatrix(dim); 
+            
     }
 
     int[] dimsFromStringToArray(String stringTOconvert){

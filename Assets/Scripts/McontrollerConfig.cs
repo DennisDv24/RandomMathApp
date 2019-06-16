@@ -14,22 +14,22 @@ public class McontrollerConfig : MonoBehaviour
         M = new List<GameObject>();
     }
 
-    public void DefEmpty(){
+        public void DefEmpty(){
 
-        M.Add(Instantiate(mEmptyPrefab));
-        M[getLastIndex()].transform.parent = gameObject.transform;
-    }
+            M.Add(Instantiate(mEmptyPrefab));
+            M[getLastIndex()].transform.parent = gameObject.transform;
+        }
 
-    public int getLastIndex(){
-        return M.Count -1;
-    }
+            public int getLastIndex(){
+                return M.Count -1;
+            }
 
-    public void setDim(int index, int[] dim){
-        M[index].GetComponent<Mconfig>().dim = dim;
-    }
-    public int[] getDim(int index){
-        return M[index].GetComponent<Mconfig>().dim;
-    }
+                public void setDim(int index, int[] dim){
+                    M[index].GetComponent<Mconfig>().dim = dim;
+                }
+                public int[] getDim(int index){
+                    return M[index].GetComponent<Mconfig>().dim;
+                }
 
 
 }
