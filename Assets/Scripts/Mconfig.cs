@@ -5,17 +5,15 @@ using MathNet.Numerics;
 using MathNet.Numerics.LinearAlgebra;
 using MathNet.Numerics.Data.Text;
 
-public class Mconfig : MonoBehaviour
+public class Mconfig : McontrollerConfig
 {
     public int[] dim;
 
-    /* public void SetParam<T>(int[] dim, string name = "A"){//Añadir variable generica de valores de la matriz
-        //Creas una nueva matriz a partir de MathNet
+    /* public void SetParam<T>(int[] dim, string name = "A"){//Make a method that gives generic values to the matrix
 
     }*/
 
     public Mconfig(){
-        //print("A new matrix have been created");
     }
 
 

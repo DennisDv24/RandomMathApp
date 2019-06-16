@@ -12,7 +12,6 @@ public class McontrollerConfig : MonoBehaviour
 
     public McontrollerConfig(){
         M = new List<GameObject>();
-        //print("se ha instanciado");
     }
 
     public void DefEmpty(){
