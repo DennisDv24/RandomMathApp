@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/ScenesF/definition/defMdimScene.unity
+- path: Assets/ScenesF/mainScenes/Intro.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

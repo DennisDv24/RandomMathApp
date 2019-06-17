@@ -8,7 +8,7 @@ public class McontrollerConfig : MonoBehaviour
 {
 
     public GameObject mEmptyPrefab;
-        List<GameObject> M;
+       public List<GameObject> M;
 
     public McontrollerConfig(){
         M = new List<GameObject>();
@@ -24,11 +24,16 @@ public class McontrollerConfig : MonoBehaviour
                 return M.Count -1;
             }
 
+                //Do this into the Mconfig script as a parameters
                 public void setDim(int index, int[] dim){
                     M[index].GetComponent<Mconfig>().dim = dim;
                 }
                 public int[] getDim(int index){
                     return M[index].GetComponent<Mconfig>().dim;
+                }
+
+                public void setName(int index, String name){
+                    M[index].GetComponent<Mconfig>().name = name;
                 }
 
 

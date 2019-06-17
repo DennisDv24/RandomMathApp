@@ -12,13 +12,13 @@ public class oneDscreen : MonoBehaviour
         private String fText;
     public Boolean erease = false;
 
-    void Update(){////////////TO TEST
+    /* void Update(){////////////TO TEST
         if(Input.touchCount == 1){
             textToChange.text.Remove(0);
             textToChange.fontSize = 100;
         }
 
-    }
+    }*/
 
         public void addTOscreen(){
             fText = textToChange.text;
